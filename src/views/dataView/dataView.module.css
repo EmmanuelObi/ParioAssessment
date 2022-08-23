@@ -1,0 +1,56 @@
+.dataView {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 !important;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  font-family: "Product Sans", sans-serif !important;
+}
+.dataView > div.loader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.dataView > div.loader p {
+  margin-top: 20px;
+}
+.fullview {
+  width: 100%;
+  height: 400px;
+}
+.dataView .overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.overview > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.overview > div:hover {
+  color: #f2994a;
+}
+.fullview h1 {
+  color: #4e598c;
+}
+.fullview > p {
+  margin-bottom: 0 !important;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .dataView {
+    width: 80%;
+  }
+}

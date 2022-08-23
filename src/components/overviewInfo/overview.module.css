@@ -1,0 +1,32 @@
+.overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.overview > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+.overview > div:hover {
+  color: #f2994a;
+}
+@media only screen and (max-width: 700px) {
+  .overview > div {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .overview {
+    flex-wrap: wrap;
+  }
+  .overview > div {
+    width: 40%;
+  }
+}

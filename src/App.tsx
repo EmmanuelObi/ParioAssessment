@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import TopShape from "./components/topShape/TopShape";
+import DataView from "./views/dataView/DataView";
+import FormArea from "./views/formArea/FormArea";
+import PurchaseSuccess from "./views/purchaseSuccess/PurchaseSuccess";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopShape />
+      <Routes>
+        <Route path="/datatable" element={<DataView />} />
+        <Route path="/paymentsuccess" element={<PurchaseSuccess />} />
+        <Route path="/" element={<FormArea />} />
+      </Routes>
     </div>
   );
 }

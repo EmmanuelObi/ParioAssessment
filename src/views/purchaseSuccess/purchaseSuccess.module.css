@@ -1,0 +1,110 @@
+.purchaseSuccess {
+  width: 40%;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 0 !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Product Sans", sans-serif !important;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.purchaseSuccess .check {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.check img {
+  width: 60%;
+}
+.purchaseSuccess h2 {
+  font-family: "Product Sans";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4e598c;
+  width: 60%;
+  margin: 10px 0 !important;
+}
+.purchaseSuccess p {
+  font-family: "Product Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4f4f;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.purchaseSuccess a {
+  font-family: "Product Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #f2994a;
+}
+.purchaseSuccess a span {
+  text-decoration: underline !important;
+}
+
+.purchaseSuccess > div:last-child {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1365px) {
+  .purchaseSuccess {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .purchaseSuccess {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .purchaseSuccess {
+    width: 90%;
+  }
+  .purchaseSuccess h2,
+  .purchaseSuccess p,
+  .purchaseSuccess a {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .purchaseSuccess h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .purchaseSuccess p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .purchaseSuccess a {
+    font-size: 14px;
+    text-align: center;
+  }
+}
