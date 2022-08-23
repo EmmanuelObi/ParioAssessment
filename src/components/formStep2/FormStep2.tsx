@@ -35,7 +35,6 @@ const FormStep2 = () => {
       <div className={classes.billing}>
         <div className={classes.formGroup}>
           <label htmlFor="details">
-            {" "}
             Card Details <span>*</span>
           </label>
           <input

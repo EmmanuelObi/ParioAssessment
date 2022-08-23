@@ -190,3 +190,13 @@
     font-size: 11px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .billing > div:first-child {
+    width: 40%;
+  }
+  .formGroup label {
+    font-size: 7px;
+    line-height: 20px;
+  }
+}

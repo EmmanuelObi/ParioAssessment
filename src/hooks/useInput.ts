@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+// custom hook for input validation
+
 const useInput = (validate: any, initialValue: any) => {
   const [value, setValue] = useState(initialValue);
   const [isTouched, setIsTouched] = useState(false);

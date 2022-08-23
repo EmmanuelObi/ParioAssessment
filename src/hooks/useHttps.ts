@@ -2,6 +2,8 @@ import axios from "axios";
 import { useCallback } from "react";
 // eslint-disable-next-line import/no-unresolved
 
+// custom hook for API calls
+
 const useHttps = () => {
   const sendRequest = useCallback(
     async (

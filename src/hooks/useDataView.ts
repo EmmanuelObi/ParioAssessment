@@ -3,6 +3,8 @@ import { useAppDisPatch } from "../redux/store";
 import useHttps from "./useHttps";
 import { GridColDef } from "@mui/x-data-grid";
 
+// custom hook to contain all logic for the data table in order to keep DataView component as clean as possible.
+
 const useDataView = () => {
   const sendRequest = useHttps();
   const dispatch = useAppDisPatch();
