@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 # View Live [Demo](https://parioassessment.netlify.app).
+![form](https://github.com/EmmanuelObi/ParioAssessment/blob/master/src/assets/img/Screenshot%202022-08-27%20at%2011.06.18.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
